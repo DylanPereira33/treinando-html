@@ -1,39 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hdc Host</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Ícones -->
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart fit</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="nav_container">
-            <nav>
-                <a href="#">
-                    <img src="img/img1.jpg" alt="Baner da academia">
-                </a>
-                <ul class="navbar_items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Preços</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#" class="deafault-btn">Entrar</a></li>
-                </ul>
-                <main>
-                    <div class="main_banner">
-                        <h1>Iron House</h1>
-                        <p>Sua casa, seu limite. Iron House.</p>
-                    </div>
-                </main>
-            </nav>
-        </div>
+      <div class="navbar-container">
+        <nav>
+          <a href="#">
+            <img src="img/Smart_Fit_logo.svg.png" alt=" smartfit logo" class="logo" />
+          </a>
+          <ul class="navbar-items">
+            <li><a href="#">academia</a></li>
+            <li><a href="#">Espaço do cliente</a></li>
+            <li><a href="#">Seja frequentado</a></li>
+            <li><a href="#" class="default-btn">Ache sua academia</a></li>
+          </ul>
+        </nav>
+      </div>
+      <main>
+        <div class="main-banner"></div>
+        <section class="pricing-container">
+            <h2>Venha treinar <b>na maior rede de academias da América Latina</b></h2>
+            <br>
+            <p>Selecione o plano que atende às suas necessidades</p>
+            <div class="plans-container">
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$119,90/mês</li>
+                        <li class="plan-name">Plano Super Fit</li>
+                        <li>Acesso ilimitado a todas as unidades da rede (nacional e internacional)</li>
+                        <li>Convide 1 amigo por treino</li>
+                        <li>Cadeira de massagem e solário</li>
+                        <li>Acesso prioritário a aulas e equipamentos</li>
+                        <li>Sem taxa de cancelamento após 3 meses</li>
+                        <li class="plan-btn">Saber mais</li>
+                    </ul>
+                </div>
+        
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$79,90/mês</li>
+                        <li class="plan-name">Plano Fit</li>
+                        <li>Acesso a todas as unidades da sua cidade</li>
+                        <li>Aulas coletivas incluídas (dança, bike, funcional etc.)</li>
+                        <li>Acompanhamento com professores na academia</li>
+                        <li>Treinos no app com vídeos explicativos</li>
+                        <li>1 avaliação física semestral</li>
+                        <li class="plan-btn">Saber mais</li>
+                    </ul>
+                </div>
+        
+                <div class="plan">
+                    <ul>
+                        <li class="price recommended">R$59,90/mês</li>
+                        <li class="plan-name">Plano Smart</li>
+                        <li>Acesso a 1 unidade escolhida da sua cidade</li>
+                        <li>Treinos no app com vídeos explicativos</li>
+                        <li>Acompanhamento com professores na academia</li>
+                        <li>Treino autônomo com suporte eventual</li>
+                        <li>1 avaliação física semestral</li>
+                        <li class="plan-btn recommended">Saber mais</li>
+                    </ul>
+                </div>
+        </section>
+        
+        <section class="searchdomain-container">
+          <h2>Encontre a academia <b>mais próxima!</b></h2>
+          <form>
+            <input
+              type="text"
+              name="domain"
+              id="domain"
+              placeholder="Escolher academia"
+            />
+            <input type="submit" value="Procurar domínio" />
+          </form>
+        </section>
+        <section class="contact-container">
+          <h2>Mande uma mensagem</h2>
+          <p>
+            Envie a sua mensagem, alguém entrará em
+            contato
+          </p>
+          <form>
+            <input type="text" name="name" id="name" placeholder="Seu nome" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Seu e-mail"
+            />
+            <textarea name="message" id="message">
+Descreva o que você precisa</textarea
+            >
+            <input type="submit" value="Enviar" />
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2025 Smart Copy.</p>
+      </footer>
     </div>
-
-</body>
-</html>
+  </body>
+</html> 
